@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacts</title>
+        <style>
+            .logo_picture{
+              height: 118px;
+              display: inline;
+              border-radius: 55PX;
+              align-items: center;
+              margin-top: 5PX;
+              margin-bottom: 5px;
+              margin-left: 5px;
+            }
+            .header{
+              
+              width: 10px;
+              font-size: 18px;
+              font-weight: 700;
+              margin-left: 15px;
+              vertical-align: top;
+              margin-right: 200px;
+            }
+            .task_bar{
+                display: flex;
+                flex-direction: row;
+                justify-items: center;
+                margin-left: 2%;
+                margin-top: 0;
+                margin-right: 3%;
+                background-color: rgb(240, 232, 232);
+                position:fixed;
+                min-width: 96%;
+                z-index: 100;
+                
+                
+            }
+            .home_button, .About_button, .Contacts_button{
+                margin-left: 50px;
+                font-weight: 500;
+                font-size: 20px;
+                cursor: pointer;
+                transition: 0.2s;
+            }
+            .home_button:hover, .About_button:hover, .Contacts_button:hover{
+              opacity: 0.8;
+            }
+            .home_button:active, .About_button:active, .Contacts_button:active{
+                opacity:0.2;
+            }
+            .proterp_contacts{
+                padding-top: 150px;
+                margin-bottom: 80px;
+            }
+            .proterp_conta, .web_conta{
+                font-weight: 700;
+                font-size: 20px;
+            }
+            .a {
+               text-decoration: none;
+            }
+            </style>
+    </head>
+    <body style="height: 1500px;">
+        <div class="task_bar">
+        <img class="logo_picture" src="PTP_IMG3.jpg">
+        <p class="header">PRO_TERP SIGN LANGUAGE CENTRE</p>
+        <p class="home_button">
+            <a href="http://127.0.0.1:5500/home_page.html">HOME</a>
+           
+        </p>
+        <p class="About_button">
+            <a href="http://127.0.0.1:5500/about_page.html">ABOUT</a>
+        
+            
+        </p>
+        <p class="Contacts_button">
+            <a href="//127.0.0.1:5500/contact_page.html">CONTACT</a>
+            </p>
+        </div>
+        <div class="proterp_contacts">
+        <p class="proterp_conta"> FOR SIGN LANGUAGE TRAINING CONTACT US:</p>
+        <p>Whatsapp/sms: +254740943965</p>
+        <p>Email: proterpsignlanguagetrainingcentre@gmail.com</p>
+ 
+        </div>
+        <div class="website_contacts">
+        <p class="web_conta"> FOR WEBSITE DEVELOPMENT:</p>
+        <p>Mobile: +254111676453</p>
+        <p>Email: magicdevelopers9@gmail.com</p>
+ 
+        </div>
+        
+    </body>
+    </html>
